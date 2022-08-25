@@ -1,9 +1,21 @@
 import React from 'react';
+import { RiImage2Fill } from 'react-icons/ri';
+import { Feature } from '../../components';
+import Carousel from '../../components/carousel/Carousel.jsx';
 import './features.css';
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div className='chaos__features section__padding' id='gallery'>
+        <div className='chaos__features-heading'>
+            <h1 className='gradient__text'>Team Gallery</h1>
+            <p>Standing at the forefront of STEM education, Team Chaos aims to bring comradery and compassion to the Robotics community. Innovation and leadership are not just goals to us, they are our way of life, despite our "chaotic" spirit.</p>
+        </div>
+        <div className='chaos__features-slideshow'>
+            <Feature title='' text=''/>
+            <Carousel />
+        </div>
+    </div>
   )
 };
 
