@@ -4,7 +4,7 @@ import './whatChaos.css';
 
 const WhatChaos = () => {
   return (
-    <div className="chaos__whatchaos" id="whatChaos">
+    <div className="chaos__whatchaos" id="about">
         <div className="chaos__whatchaos-heading">
             <h1>About Us</h1>
             <a href="https://google.com" target="_blank" rel="noreferrer">
