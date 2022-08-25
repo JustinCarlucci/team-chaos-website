@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.chaos__header {
+    display: flex;
+}
+
+.chaos__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.chaos__header-content h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+
+.chaos__header-content p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fde8d7;
+
+    margin-top: 1.5rem;
+}
+
+.chaos__header-image img {
+    width: 100%;
+    length: 100%;
+
+}
+
+@media screen  and (max-width: 1050px) {
+    .chaos__header {
+        flex-direction: column;
+    }
+    .chaos__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen  and (max-width: 650px) {
+    .chaos__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .chaos__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen  and (max-width: 490px) {
+    .chaos__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .chaos__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

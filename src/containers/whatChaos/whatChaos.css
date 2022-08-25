@@ -1,0 +1,112 @@
+
+
+.chaos__whatchaos {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+    margin-top: 1rem;
+    /* ff 3.6+ */
+    background: #fff;
+    background-image: url('../../assets/intro-flourish.png');
+}
+
+.chaos__whatchaos-feature {
+    display: flex;
+}
+
+.chaos__whatchaos-feature .chaos__whatchaos-features-container__feature {
+
+}
+
+.chaos__whatchaos-feature .chaos__whatchaos-features-container__feature-text {
+    max-width: 700px;
+}
+
+.chaos__whatchaos-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.chaos__whatchaos-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    max-width: 510px;
+    font-family: var(--font-family);
+    color: #26262c;
+}
+.chaos__whatchaos-heading button {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: white;
+
+    background: #867246;
+    box-shadow: inset 0 0 0 1px #867246;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: .3s;
+    padding: 10px;
+    border: 0;
+}
+.chaos__whatchaos-heading button:hover {
+    background: #fff;
+    color: black;
+    cursor:pointer;
+}
+
+.chaos__whatchaos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    .gpt3__whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .gpt3__whatgpt3-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
