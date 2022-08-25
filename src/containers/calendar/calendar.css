@@ -1,0 +1,27 @@
+
+.chaos__calendar {
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.chaos__calendar-content {
+    padding-top: 2rem;
+    overflow: auto;
+    box-sizing: content-box;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    justify-content: in-between;
+}
+
+.chaos__calendar-content img {
+    width: 30%;
+    height: 30%;
+}
+.chaos__calendar-content iframe {
+    border: none;
+    padding-bottom: 1rem;
+    scale: 80%;
+}
