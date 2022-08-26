@@ -1,3 +1,3 @@
-Ill make this readme later.
+This is a website for my highschool robotics team
 
-its a website for robotics team
+The actual running site is www.teamchaos2458.org
