@@ -1,5 +1,10 @@
-
 .chaos__calendar {
+    margin-top: 1rem;
+    background-image: url('../../assets/intro-flourish-horizontal.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center 45rem;
+    background-color: #fff;
     display: flex;
     align-items: left;
     flex-wrap: wrap;
@@ -14,6 +19,24 @@
     align-items: left;
     flex-direction: row;
     justify-content: in-between;
+    margin-bottom: -2rem;
+}
+
+.chaos__calendar h1 {
+    color: var(--color-headertext);
+    font-family: var(--font-family);
+    font-size: 36px;
+}
+
+.chaos__calendar p#para1 {
+    padding-top: 0.5rem;
+    color: var(--color-subtext);
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+
+.chaos__calendar-content {
+    overflow: hidden;
 }
 
 .chaos__calendar-content img {
@@ -22,6 +45,40 @@
 }
 .chaos__calendar-content iframe {
     border: none;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     scale: 80%;
+}
+.chaos__cta {
+    position: relative;
+    left: -40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .chaos__calendar h1, .chaos__calendar p {
+        position: relative;
+        top: 30px;
+    }
+    .chaos__calendar-content img {
+        display: none;
+    }
+    .chaos__calendar-content iframe {
+        position:relative;
+        right: 200px;
+        scale:70%;
+    }
+}
+@media screen and (max-width: 660px) {
+    .chaos__calendar h1 {
+        font-size: 24px;
+    }
+    .chaos__calendar p {
+        font-size: 18px;
+        width: 200px;
+    }
+    .chaos__calendar-content img {
+        display: none;
+    }
+    .chaos__calendar-content iframe {
+        scale:60%;
+    }
 }
