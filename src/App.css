@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+
 }
+
 
 body {
     background: var(--color-bg);
@@ -15,6 +17,7 @@ a {
 }
 
 .gradient__bg {
+    margin-right: -0.2rem;
 
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 5% 25%, rgba(8, 105, 163, 1) 0%, rgba(1, 25, 80, 1) 100%);
@@ -31,6 +34,26 @@ a {
     /* global 92%+ browsers support */
     background:radial-gradient(circle at 5% 25%, rgba(8, 105, 163, 1) 0%, rgba(1, 25, 80, 1) 100%);
 
+}
+.gradient__bg-1 {
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 95% 88%, rgba(7, 96, 152, 1) 18%, rgba(1, 30, 85, 1) 89%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 95% 88%, rgba(7, 96, 152, 1) 18%, rgba(1, 30, 85, 1) 89%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 95% 88%, rgba(7, 96, 152, 1) 18%, rgba(1, 30, 85, 1) 89%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 95% 88%, rgba(7, 96, 152, 1) 18%, rgba(1, 30, 85, 1) 89%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 95% 88%, rgba(7, 96, 152, 1) 18%, rgba(1, 30, 85, 1) 89%);
+}
+
+.gradient__bg#bg-2 {
+    margin-top: 1rem;
 }
 
 .gradient__text {
