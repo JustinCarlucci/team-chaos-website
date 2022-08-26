@@ -5,6 +5,8 @@
     flex-direction: column;
     
     padding: 2rem;
+    padding-left: 6rem;
+    padding-bottom: 10rem;
     margin-top: 1rem;
     /* ff 3.6+ */
     background: #fff;
@@ -38,7 +40,7 @@
     font-weight: 800;
     max-width: 510px;
     font-family: var(--font-family);
-    color: #26262c;
+    color: var(--color-headertext);
 }
 .chaos__whatchaos-heading button {
     font-family: var(--font-family);
@@ -83,6 +85,9 @@
 }
 
 @media screen and (max-width: 650px) {
+    .chaos__whatchaos-container {
+        flex-wrap: wrap;
+    }
     /* Customizing feature component as per needs */
     .chaos__whatchaos-feature .chaos__features-container__feature {
         flex-direction: column;
