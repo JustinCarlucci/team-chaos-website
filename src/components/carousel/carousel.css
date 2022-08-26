@@ -39,10 +39,14 @@
     color:white;
 }
   
-@media (max-width: 480px) {
+@media (max-width: 590px) {
     .arrow, .light .arrow {
         background-size: 10px;
         background-position: 10px 50%;
+    }
+    .chaos__carousel-wrapper {
+        height: 200px;
+        width: 267px;
     }
 }
   
