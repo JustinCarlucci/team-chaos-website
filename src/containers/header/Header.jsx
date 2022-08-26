@@ -1,6 +1,5 @@
 import React from 'react';
 import './header.css';
-import gsbknights from '../../assets/StBernardsKnights.png';
 import knight from '../../assets/Knight.png';
 
 const Header = () => {

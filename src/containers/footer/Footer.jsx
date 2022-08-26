@@ -15,9 +15,9 @@ const Footer = () => {
                 
                 
                 
-                <a href='https://www.instagram.com/teamchaos2458/' target="_blank"><p>Instagram</p></a>
-                <a href='https://www.youtube.com/channel/UCqk76hEIWZlGuEWP22WrCpQ' target="_blank"><p>YouTube</p></a>
-                <a href='https://www.facebook.com/Team-Chaos-2458-103939814302828/' target="_blank"><p>Facebook</p></a>
+                <a href='https://www.instagram.com/teamchaos2458/' target="_blank" rel="noopener noreferrer"><p>Instagram</p></a>
+                <a href='https://www.youtube.com/channel/UCqk76hEIWZlGuEWP22WrCpQ' target="_blank" rel="noopener noreferrer"><p>YouTube</p></a>
+                <a href='https://www.facebook.com/Team-Chaos-2458-103939814302828/' target="_blank" rel="noopener noreferrer"><p>Facebook</p></a>
             </div> 
             <div className='chaos__footer-links__div'>
 

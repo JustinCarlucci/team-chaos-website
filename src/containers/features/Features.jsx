@@ -1,5 +1,4 @@
 import React from 'react';
-import { RiImage2Fill } from 'react-icons/ri';
 import { Feature } from '../../components';
 import Carousel from '../../components/carousel/Carousel.jsx';
 import './features.css';

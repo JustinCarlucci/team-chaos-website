@@ -7,7 +7,7 @@ const WhatChaos = () => {
     <div className="chaos__whatchaos" id="about">
         <div className="chaos__whatchaos-heading">
             <h1>About Us</h1>
-            <a href="https://google.com" target="_blank" rel="noreferrer">
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                 <button>Learn More</button>
             </a>
         </div>
