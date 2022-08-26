@@ -20,10 +20,10 @@ const Nav = () => {
   return (
     <div className="chaos__navbar">
         <div className="chaos__navbar-links">
-            <div className="chaos__navbar-links_gsb-logo">
+            <div className="chaos__navbar-links__logo-gsb">
                 <img src={gsb} alt="gsb" />
             </div>
-            <div className="chaos__navbar-links_logo">
+            <div className="chaos__navbar-links__logo">
                 <img src={logo} alt="logo" />
             </div>
             <div className="chaos__navbar-links_container">
