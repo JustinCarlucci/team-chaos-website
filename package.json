@@ -1,6 +1,6 @@
 {
   "name": "team-chaos-website",
-  "homepage": "http://chaos2458.com",
+  "homepage": ".",
   "version": "1.0.1",
   "private": true,
   "dependencies": {
