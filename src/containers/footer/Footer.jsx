@@ -23,15 +23,14 @@ const Footer = () => {
 
                 <h4>Team and Mentor Emails</h4>
                 <a href='mailto:teamchaos2458@gmail.com'><p>teamchaos2458@gmail.com</p></a>
-                <a href='mailto:hkatz@gsbschool.org'><p>hkatz@gsbschool.org</p></a>
-                <a href='mailto:cjohnson@gsbschool.org'><p>cjohnson@gsbschool.org</p></a>
-                <a href='mailto:lgrabowski@gsbschool.org'><p>lgrabowski@gsbschool.org</p></a>
+                <a href='mailto:jcoleman@gsbschool.org'><p>jcoleman@gsbschool.org</p></a>
                 <a href='mailto:sbrown@gsbschool.org'><p>sbrown@gsbschool.org</p></a>
-                <a href='mailto:alessandrasanchez214@gmail.com'><p>alessandrasanchez214@gmail.com</p></a>
+                <a href='mailto:lgrabowski@gsbschool.org'><p>lgrabowski@gsbschool.org</p></a>
+                <a href='mailto:lmathus@gsbschool.org'><p>lmathus@gsbschool.org</p></a>
             </div> 
         </div>  
         <div className='chaos__footer-copyright'>
-            <p>© 2022 Team Chaos 2458. All rights reserved.</p>
+            <p>© 2023 Team Chaos 2458. All rights reserved.</p>
         </div>
     </div>
   )
