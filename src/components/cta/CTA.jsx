@@ -6,10 +6,10 @@ const CTA = () => {
     <div className='chaos__cta'>
         <div className='chaos__cta-content'>
             <p>Want to support the Team?</p>
-            <h3>Register your company to become a sponsor.</h3>
+            <h3>Register to become a sponsor.</h3>
         </div>
         <div className="chaos__cta-button">
-            <a href='mailto:jcoleman@gsbschool.org'><button type="button">Sponsor Us</button></a>
+            <a href='https://www.gsbschool.org/support/give-now' target='_blank'><button type="button">Sponsor Us</button></a>
         </div>
     </div>
   )
