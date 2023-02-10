@@ -9,7 +9,7 @@ const CTA = () => {
             <h3>Register to become a sponsor.</h3>
         </div>
         <div className="chaos__cta-button">
-            <a href='https://www.gsbschool.org/support/give-now' target='_blank'><button type="button">Sponsor Us</button></a>
+            <a href='https://docs.google.com/forms/d/1FIR6-LNkF7el4qgbxAS3F2nEeA3gwE-AwfcLZin3Dwc' target='_blank'><button type="button">Sponsor Us</button></a>
         </div>
     </div>
   )
